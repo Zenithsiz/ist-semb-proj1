@@ -8,3 +8,6 @@ sdkconfig.old
 
 # Typst
 *.pdf
+
+# Archives
+*.tar.gz
