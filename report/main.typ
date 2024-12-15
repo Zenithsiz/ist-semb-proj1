@@ -167,7 +167,7 @@ This means that before being able to read or write to the pin, we must set it's 
 
 `vTaskDelay` is part of `FreeRTOS` @vTaskDelay-docs. It receives a single argument, `xTicksToDelay`, an integer number of "ticks". When called, it suspends the current task, an abstraction of `FreeRTOS` similar to a thread, and only queues it again after the specified number of "ticks" has passed.
 
-How long each "tick" is depends on the system, and a constant exists, `portTICK_PERIOD_MS` that specifies the number of milliseconds per tick.
+How long each "tick" is depends on the configuration, and a constant exists, `portTICK_PERIOD_MS` that specifies the number of milliseconds per tick.
 
 We can then sleep for, for example, 1 second by dividing 1000 ms by `portTICK_PERIOD_MS`, as shown in @questions-vTaskDelay-code:
 
