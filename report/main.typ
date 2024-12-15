@@ -144,7 +144,7 @@ We now see 3 quick blinks, with each state lasting for 200 milliseconds, then it
 
 Each pin has a state that (primarily) monitors whether the pin can be read/written to.
 
-Each pin supports several states, as defined in `$(IDF_PATH)/components/hal/include/hal/gpio_types.h`. In particular interest to us are the following:
+Each pin supports several states, defined as `gpio_mode_t` @gpio-docs. In particular interest to us are the following:
 
 - `GPIO_MODE_DISABLE`: Disables the pin
 - `GPIO_MODE_INPUT`: Pin can only input
