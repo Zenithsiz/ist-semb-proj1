@@ -17,12 +17,12 @@ void step1() {
 		status = !status;
 
 		// Then sleep
-		const int ms = 500;
+		const int ms = 1000;
 		vTaskDelay(ms / portTICK_PERIOD_MS);
 	}
 }
 
-void step2() {
+void step3() {
 	/// Pulse width (ms) for the inner loop
 	const int ms_in = 200;
 
@@ -50,5 +50,5 @@ void app_main(void) {
 	gpio_set_direction(PIN, GPIO_MODE_OUTPUT);
 
 	//step1();
-	//step2();
+	//step3();
 }

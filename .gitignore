@@ -5,3 +5,6 @@ sdkconfig.old
 
 # Clangd
 .cache
+
+# Typst
+*.pdf

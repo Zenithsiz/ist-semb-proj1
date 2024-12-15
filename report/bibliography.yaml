@@ -1,0 +1,16 @@
+---
+gpio-docs:
+  type: Web
+  title: ESP32 GPIO Documentation
+  author: Espressif Systems
+  url:
+    value: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html
+    date: 2024-12-15
+
+vTaskDelay-docs:
+  type: Web
+  title: FreeRTOS `vTaskDelay` Documentation
+  author: FreeRTOS
+  url:
+    value: https://www.freertos.org/Documentation/02-Kernel/04-API-references/02-Task-control/01-vTaskDelay
+    date: 2024-12-15
